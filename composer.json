@@ -1,0 +1,26 @@
+{
+    "name": "reagordi/basic",
+    "description": "Reagordi: The Fast, Secure and Professional PHP Framework",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sergej Rufov",
+            "email": "rufov@freeun.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "smarty/smarty": "^3.1",
+        "phroute/phroute": "^2.1",
+        "phpmailer/phpmailer": "^6.2",
+        "monolog/monolog": "^2.2",
+        "phpfastcache/phpfastcache": "^8.0",
+        "illuminate/database": "*",
+        "verot/class.upload.php": "*"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.9",
+        "phpunit/phpunit": "^9.5"
+    }
+}
